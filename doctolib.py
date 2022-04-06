@@ -13,6 +13,7 @@ import time
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 import random
+import streamlit as st
 
 main_url = "https://www.doctolib.fr/dentiste/paris-75012?page="
 request_list = [
