@@ -82,6 +82,5 @@ def finder_multiple_request(list_of_requests):
   for i in tqdm(list_of_requests):
     result = finder_multiple_pages(i["url"])
     print(i["requete"], i["address"], " : ", result)
-    st.echo(i["requete"], i["address"], " : ", result)
 
 finder_multiple_request(request_list)
